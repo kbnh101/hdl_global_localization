@@ -41,7 +41,7 @@ public:
     }
 
     cloud->header.frame_id = "map";
-    globalmap_pub.publish(cloud);
+    // globalmap_pub.publish(cloud);
   }
 
   void points_callback(sensor_msgs::PointCloud2ConstPtr cloud_msg) {
